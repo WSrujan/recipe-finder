@@ -1,8 +1,7 @@
 <h1 align="center">Recipe Finder</h1>
 
 ## Introduction:
-Recipe Finder is a web application that helps users find recipes.
-
+Recipe Finder is a web application for managing and discovering recipes. It's built with React, Express.js, and MongoDB. Users can search for recipes, view detailed information, rate and comment on recipes, and add new recipes. The application provides a dynamic, user-friendly interface and leverages the flexibility of MongoDB for diverse data storage.
 
 <p align="center">Tech Stack:</p>
 <p align="center">
