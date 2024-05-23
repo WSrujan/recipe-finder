@@ -1,0 +1,138 @@
+/* ShowOne.css */
+
+:root {
+  --primary-color: #4caf50;
+  --hover-color: #45a049;
+  --input-border-color: #ccc;
+  --font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.show-one-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.437);
+}
+
+.show-one-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 170px;
+}
+
+.show-one-image {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.meal-image {
+  width: 100%;
+  height: auto;
+}
+
+.show-one-details {
+  width: 80%;
+  text-align: center;
+}
+
+.show-one-info,
+.show-one-ingredients,
+.show-one-instructions,
+.show-one-nutrition {
+  margin-bottom: 20px;
+}
+
+.show-one-info p,
+.show-one-ingredients p,
+.show-one-instructions ol,
+.show-one-nutrition p {
+  text-align: left;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: var(--hover-color);
+}
+/* Container for each comment */
+.comment {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Name of the commenter */
+.comment .name {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Text of the comment */
+.comment .text {
+  margin-top: 5px;
+  color: #666;
+}
+
+/* Form for adding a new comment */
+.comment-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Input field for the commenter's name */
+.comment-form .name-input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Input field for the comment text */
+.comment-form .text-input {
+  flex: 2;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button for submitting the comment */
+.comment-form .submit-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form .submit-button:hover {
+  background-color: #45a049;
+}
+.show-one-ingredients ul {
+  list-style-type: none;
+}
