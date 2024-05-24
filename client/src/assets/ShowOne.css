@@ -37,6 +37,7 @@ body {
 .meal-image {
   width: 100%;
   height: auto;
+  padding-top: 20px;
 }
 
 .show-one-details {
